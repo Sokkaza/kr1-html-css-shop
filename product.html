@@ -36,12 +36,12 @@
       <article class="product-detail">
         <div class="product-detail__media">
           <span class="product-detail__badge">Скидка</span>
-          <div class="product-detail__image">Изображение товара</div>
+          <img class="product-detail__image" src="images/product1.jpg.png" alt="Товар 1 — фотография товара">
         </div>
 
         <div class="product-detail__info">
           <h1 class="product-detail__title">Товар 1</h1>
-          <p class="product-detail__description">Краткое описание учебного товара.</p>
+          <p class="product-detail__description">Товар 1 — практичный вариант для повседневного использования. Он есть в наличии, а гарантия составляет 12 месяцев. Сейчас действует скидка: цена снижена с 1200 до 1000 рублей. Подробные сведения о товаре собраны в таблице характеристик ниже; если перед заказом останутся вопросы о доставке или комплектации, их можно уточнить при оформлении заявки.</p>
           <p class="product-detail__price">
             <span class="product-detail__price-old">1200 руб.</span>
             1000 руб.
@@ -93,21 +93,64 @@
 
     <section class="section" id="reviews">
       <h2 class="section__title">Отзывы покупателей</h2>
+      <p class="reviews__average">
+        Средняя оценка:
+        <span class="reviews__stars" role="img" aria-label="4 звезды из 5">★★★★☆</span>
+        <strong>4,0 из 5</strong> по 3 отзывам
+      </p>
 
       <ul class="reviews">
         <li class="reviews__item">
-          <p class="reviews__author">Покупатель 1</p>
-          <p class="reviews__text">Краткий текст отзыва.</p>
+          <p class="reviews__author">Анна К.</p>
+          <p class="reviews__rating">
+            <span class="reviews__stars" role="img" aria-label="4 звезды из 5">★★★★☆</span>
+            <span class="reviews__score">4 из 5</span>
+          </p>
+          <p class="reviews__text">Товар соответствует описанию, выглядит аккуратно и удобно в использовании. Заказ оформила быстро, хотелось бы только получить чуть больше информации о доставке до оформления.</p>
         </li>
         <li class="reviews__item">
-          <p class="reviews__author">Покупатель 2</p>
-          <p class="reviews__text">Краткий текст отзыва.</p>
+          <p class="reviews__author">Михаил Р.</p>
+          <p class="reviews__rating">
+            <span class="reviews__stars" role="img" aria-label="5 звезд из 5">★★★★★</span>
+            <span class="reviews__score">5 из 5</span>
+          </p>
+          <p class="reviews__text">Покупкой доволен: товар пришёл в хорошем состоянии, характеристики совпали с указанными на странице. Отдельно отмечу понятное оформление заявки и быструю обратную связь.</p>
         </li>
         <li class="reviews__item">
-          <p class="reviews__author">Покупатель 3</p>
-          <p class="reviews__text">Краткий текст отзыва.</p>
+          <p class="reviews__author">Елена С.</p>
+          <p class="reviews__rating">
+            <span class="reviews__stars" role="img" aria-label="3 звезды из 5">★★★☆☆</span>
+            <span class="reviews__score">3 из 5</span>
+          </p>
+          <p class="reviews__text">Сам товар хороший и соответствует ожиданиям. Снижаю оценку за то, что пришлось уточнять детали заказа отдельно; было бы удобнее сразу видеть всю информацию на странице.</p>
         </li>
       </ul>
+    </section>
+
+    <section class="section" id="product-faq">
+      <h2 class="section__title">Вопросы о товаре</h2>
+
+      <div class="faq">
+        <details class="faq__item">
+          <summary class="faq__question">Есть ли товар в наличии?</summary>
+          <p class="faq__answer">По данным карточки товар есть в наличии. Чтобы оформить заказ, перейдите к заявке и укажите контактные данные. Менеджер подтвердит наличие и согласует дальнейшие детали.</p>
+        </details>
+
+        <details class="faq__item">
+          <summary class="faq__question">Какие характеристики и гарантия указаны для товара?</summary>
+          <p class="faq__answer">Основные сведения приведены в таблице характеристик выше. Для товара указана гарантия 12 месяцев. При получении сохраните подтверждение покупки и уточните у менеджера порядок обращения по гарантии.</p>
+        </details>
+
+        <details class="faq__item">
+          <summary class="faq__question">Как узнать стоимость и срок доставки?</summary>
+          <p class="faq__answer">Стоимость и срок зависят от адреса и способа доставки. Оставьте заявку, и менеджер сообщит доступные варианты до подтверждения заказа.</p>
+        </details>
+
+        <details class="faq__item">
+          <summary class="faq__question">Можно ли отказаться от товара или оформить возврат?</summary>
+          <p class="faq__answer">Условия возврата зависят от состояния товара и действующих правил продажи. До оформления заявки можно задать вопрос через контакты, а при получении проверьте комплектность и внешний вид товара.</p>
+        </details>
+      </div>
     </section>
   </main>
 
